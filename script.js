@@ -1,6 +1,6 @@
 ﻿// DevOps Learning Tracker
 let days = localStorage.getItem('devopsDays') || 0;
-let technologies = localStorage.getItem('techCount') || 8; // 8 technologies you know
+let technologies = localStorage.getItem('techCount') || 18; // Updated tech count
 
 // Update displays
 function updateCounters() {
@@ -107,3 +107,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Console message to show CI/CD is working
 console.log('🚀 DevOps Portfolio Dashboard - Deployed via GitHub Actions CI/CD!');
+console.log('📊 Featured Projects: Microservices CI/CD, Kubernetes Monitoring, AWS Terraform');
