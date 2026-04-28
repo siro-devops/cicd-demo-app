@@ -1,0 +1,22 @@
+﻿# Git files
+.git/
+.gitignore
+
+# GitHub Actions workflows
+.github/
+
+# Docker files
+Dockerfile
+.dockerignore
+
+# Local development files
+*.md
+test.js
+package.json
+package-lock.json
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
