@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,7 +15,7 @@
                 <span class="badge"> Live Website</span>
                 <span class="badge"> Auto-Deploy</span>
                 <span class="badge"> CI/CD Pipeline</span>
-                <span class="badge"> 3 Projects</span>
+                <span class="badge"> 4 Projects</span>
             </div>
         </header>
 
@@ -24,7 +24,7 @@
             <div class="project-grid">
                 <div class="project-card">
                     <h3> Microservices CI/CD Pipeline</h3>
-                    <p>Eliminated manual deployments by building an end-to-end pipeline that takes code from commit to production in minutes. GitHub Actions triggers the chain, Jenkins runs tests, Docker containerises each service, Kubernetes orchestrates the rollout. Zero-downtime deployments with automated rollback on failure.</p>
+                    <p>Eliminated manual deployments by building an end-to-end pipeline that takes code from commit to production in minutes. GitHub Actions triggers the chain — Jenkins runs tests, Docker containerises each service, Kubernetes orchestrates the rollout. Zero-downtime deployments with automated rollback on failure.</p>
                     <div class="tech-stack">
                         <span>Jenkins</span>
                         <span>Docker</span>
@@ -36,7 +36,7 @@
 
                 <div class="project-card">
                     <h3> Kubernetes Monitoring Stack</h3>
-                    <p>Built a full observability platform so nothing breaks silently. Prometheus scrapes metrics, Loki aggregates logs, Grafana surfaces everything in real-time dashboards, all deployed on Minikube via Helm. You know what's failing, where, and since when, before your users do.</p>
+                    <p>Built a full observability platform so nothing breaks silently. Prometheus scrapes metrics, Loki aggregates logs, Grafana surfaces everything in real-time dashboards — all deployed on Minikube via Helm. You know what's failing, where, and since when, before your users do.</p>
                     <div class="tech-stack">
                         <span>Kubernetes</span>
                         <span>Prometheus</span>
@@ -57,6 +57,19 @@
                     </div>
                     <a href="https://github.com/siro-devops/aws-terraform-infrastructure" target="_blank" class="btn">View on GitHub →</a>
                 </div>
+
+                <div class="project-card">
+                    <h3> Kubernetes Incident Response Engineering</h3>
+                    <p>Built a chaos engineering platform to prove that production systems hold under failure. LitmusChaos injects real failures — pod kills, network latency, CPU saturation — while Prometheus fires scoped alerts and k6 synthetic traffic measures user impact in real time. Every failure scenario is paired with a documented runbook mapping detection to recovery.</p>
+                    <div class="tech-stack">
+                        <span>LitmusChaos</span>
+                        <span>Prometheus</span>
+                        <span>Alertmanager</span>
+                        <span>k6</span>
+                        <span>Runbooks</span>
+                    </div>
+                    <a href="https://github.com/siro-devops/k8s-incident-response" target="_blank" class="btn">View on GitHub →</a>
+                </div>
             </div>
         </section>
 
@@ -64,15 +77,15 @@
             <h2> DevOps Learning Tracker</h2>
             <div class="counter-container">
                 <div class="counter-card">
-                    <div class="counter-value" id="daysCounter">0</div>
+                    <div class="counter-value" id="daysCounter">487</div>
                     <div class="counter-label">Days Learning DevOps</div>
                 </div>
                 <div class="counter-card">
-                    <div class="counter-value" id="projectsCounter">3</div>
+                    <div class="counter-value" id="projectsCounter">4</div>
                     <div class="counter-label">Portfolio Projects</div>
                 </div>
                 <div class="counter-card">
-                    <div class="counter-value" id="techCounter">0</div>
+                    <div class="counter-value" id="techCounter">18</div>
                     <div class="counter-label">Technologies Mastered</div>
                 </div>
             </div>
@@ -112,6 +125,7 @@
                     <h3> Cloud Platforms</h3>
                     <div class="skill-items">
                         <span>AWS</span>
+                        <span>Azure</span>
                         <span>Minikube</span>
                     </div>
                 </div>
@@ -138,6 +152,15 @@
                         <span>Prometheus</span>
                         <span>Grafana</span>
                         <span>Loki</span>
+                        <span>Alertmanager</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3> Chaos & Incident Response</h3>
+                    <div class="skill-items">
+                        <span>LitmusChaos</span>
+                        <span>k6</span>
+                        <span>Runbooks</span>
                     </div>
                 </div>
                 <div class="skill-category">
